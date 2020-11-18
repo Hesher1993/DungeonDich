@@ -13,6 +13,7 @@ public class GameMap {
     private byte[][] data;
     private TextureRegion grassTexture;
 
+
     public GameMap(TextureAtlas atlas) {
         this.data = new byte[CELLS_X][CELLS_Y];
         this.grassTexture = atlas.findRegion("grass40");
