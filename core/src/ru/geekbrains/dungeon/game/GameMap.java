@@ -45,6 +45,7 @@ public class GameMap {
         return CELLS_X;
     }
 
+
     public int getCellsY() {
         return CELLS_Y;
     }
